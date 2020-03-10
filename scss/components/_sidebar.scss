@@ -63,6 +63,20 @@
     padding: 8px 12px;
     top: 0;
     height: 100%;
+
+     a {
+        color: $sidebar-text-color-light;
+        text-decoration: none;
+
+        :hover {
+            color: $sidebar-text-color-dark;
+        }
+    }
+
+    .panel-heading {
+        text-align: center;
+        color: $sidebar-header-color; 
+    }
 }
 
 .btn-collapse {
@@ -71,6 +85,8 @@
     top: 20px;
     right: 0;
     border-radius: 0;
+    box-shadow: none !important;
+    outline: 0;
     @include transition(all, .3s, ease-out);
 }
 

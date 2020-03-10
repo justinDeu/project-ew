@@ -1,3 +1,8 @@
+/* General Colors */
+$dark-bg: rgb(37, 28, 28);
 
-// Sidebar Settings
-$sidebar-bg-color: rgb(37, 28, 28)
+/* Sidebar Settings */
+$sidebar-bg-color: $dark-bg;
+$sidebar-text-color-light: white;
+$sidebar-text-color-dark: $sidebar-bg-color;
+$sidebar-header-color: white;
