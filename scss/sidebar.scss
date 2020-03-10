@@ -79,7 +79,7 @@ body {
   border-radius: 0 0 0 5px;
 }
 .btn-collapse {
-  position: absolute;
+  position: fixed;
   padding: 8px 12px;
   border-radius: 5px 5px 0 0;
   top: 20px;
@@ -88,7 +88,7 @@ body {
   @include transition(all, .3s, ease-out);
 }
 .row-offcanvas.active .btn-collapse {
-  right: 0;
-  margin-right: -8px;
+  right: 20px;
+  margin-right: 0;
   @include transition(all, .3s, ease-out);
 }
