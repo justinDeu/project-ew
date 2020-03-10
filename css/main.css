@@ -1,15 +1,6 @@
-/* Variables */
-/* Mixins*/
-/* Style tweaks */
-html,
-body {
-  overflow-x: hidden;
-  /* Prevent scroll on narrow devices */
-  height: 100%; }
-
-body {
-  padding-top: 70px; }
-
+/*
+ * Transition Mixin to handle all transitions
+ */
 /* Off Canvas */
 @media screen and (min-width: 768px) {
   .row-offcanvas {
@@ -95,4 +86,13 @@ body {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 
-/*# sourceMappingURL=sidebar.css.map */
+html,
+body {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */
+  height: 100%; }
+
+body {
+  padding-top: 70px; }
+
+/*# sourceMappingURL=main.css.map */
