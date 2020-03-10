@@ -88,7 +88,7 @@ body {
   @include transition(all, .3s, ease-out);
 }
 .row-offcanvas.active .btn-collapse {
-  right: 20px;
+  right: 25%;
   margin-right: 0;
   @include transition(all, .3s, ease-out);
 }
