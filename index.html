@@ -11,7 +11,7 @@
     <!-- jQuery Source -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
-    window.jQuery || document.write('<script src=".\/js\/jquery-3.4.1.min.js"><\/script>');
+        window.jQuery || document.write('<script src=".\/js\/jquery-3.4.1.min.js"><\/script>');
     </script>
 
     <!-- Bootstrap CSS/JS Source and Falback-->
@@ -23,6 +23,8 @@
         document.write('<link rel="stylesheet" href="./css/bootstrap.min.css">');
         }
     </script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- Custom Loading -->
     <script type='text/javascript'>
@@ -36,13 +38,13 @@
 <body>
     <div id="sidebar"></div>
     <div class="content container">
-        <p class="pull-right">
-            <a type="button" class="btn btn-collapse btn-sm" data-toggle="offcanvas">Sidebar</a>
-        </p>
+        <button type="button" class="btn btn-sm" aria-label="Sidebar" data-toggle="offcanvas">
+            <i class="fas fa-bars"></i>
+        </button>
         <div class="jumbotron">
           <h1>Bootstrap Tutorial</h1>
           <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
-          responsive, mobile-first projects on the web.</p>
+          responsive, mobile-first projects on the web. <span class="fas fa-bars"></span></p>
         </div>
         <p>This is some text.</p>
         <p>This is another text.</p>
