@@ -24,12 +24,12 @@ body {
 
 @media screen and (min-width: 768px) {
   .row-offcanvas {
-    position: relative;
+    position: fixed;
     right: 0;
+    z-index: 1;
     @include transition(all, .3s, ease-out);
     &.active {
        right: 25%; /* 3 columns */
-       z-index: 1;
       .content {
         width: 100%; /* 12 columns */
       }      
@@ -50,12 +50,12 @@ body {
 
 @media screen and (max-width: 767px) {
   .row-offcanvas {
+    position: fixed;
     right: 0;
-    position: relative;
+    z-index: 1;
     @include transition(all, .3s, ease-out);
     &.active {
       right: 50%; /* 6 columns */
-      z-index: 1;
     }
   }
   .sidebar-offcanvas {
@@ -74,16 +74,15 @@ body {
 
 .sidebar {
   background: rgba(51, 122, 183, 0.09);
-  padding: 10px 15px;
+  padding: 8px 12px;
   margin-top:-20px;
-  border-radius: 0 0 0 5px;
 }
 .btn-collapse {
   position: fixed;
   padding: 8px 12px;
-  border-radius: 5px 5px 0 0;
   top: 20px;
-  right: 20px;
+  right: 0;
+  border-radius: 0;
   background: rgba(51, 122, 183, 0.09);
   @include transition(all, .3s, ease-out);
 }
