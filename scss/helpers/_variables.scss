@@ -1,8 +1,15 @@
 /* General Colors */
 $dark-bg: rgb(37, 28, 28);
+$white-text-color: white;
+$light-grey-text-color: rgb(119, 119, 119);
 
 /* Sidebar Settings */
 $sidebar-bg-color: $dark-bg;
-$sidebar-text-color-light: white;
+$sidebar-text-color-light: $white-text-color;
 $sidebar-text-color-dark: $sidebar-bg-color;
-$sidebar-header-color: white;
+$sidebar-header-color: $white-text-color;
+
+/* Footer Settings */
+$footer-bg-color: $dark-bg;
+$footer-text-color-light: $white-text-color;
+$footer-text-color-grey: $light-grey-text-color;

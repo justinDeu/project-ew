@@ -3,6 +3,7 @@
  */
 /* General Colors */
 /* Sidebar Settings */
+/* Footer Settings */
 /* Off Canvas */
 @media screen and (min-width: 768px) {
   .row-offcanvas.active {
@@ -91,6 +92,22 @@
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out; }
+
+.footer-main {
+  width: 100%;
+  background-color: #251c1c;
+  color: white; }
+  .footer-main .footer-main-text {
+    text-align: center;
+    color: #777777; }
+  .footer-main .footer-nav {
+    text-align: center; }
+    .footer-main .footer-nav a {
+      color: white;
+      text-decoration: none; }
+  .footer-main .footer-bottom-text {
+    color: #777777;
+    text-align: center; }
 
 html,
 body {

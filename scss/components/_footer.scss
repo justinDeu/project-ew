@@ -1,0 +1,23 @@
+.footer-main {
+    width: 100%;
+    background-color: $footer-bg-color;
+    color: $footer-text-color-light;
+
+    .footer-main-text {
+        text-align: center;
+        color: $footer-text-color-grey;
+    }
+
+    .footer-nav {
+        text-align: center;
+        a {
+            color: $footer-text-color-light;
+            text-decoration: none;
+        }
+    }
+
+    .footer-bottom-text {
+        color: $footer-text-color-grey;
+        text-align: center;
+    }
+}
