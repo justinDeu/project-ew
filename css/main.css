@@ -39,59 +39,58 @@
 .row-offcanvas {
   position: fixed;
   right: 0;
-  z-index: 1;
   height: 100%;
+  pointer-events: none;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
-
-.sidebar-offcanvas {
-  background: #251c1c;
-  position: absolute;
-  top: 0; }
-
-.sidebar {
-  background: #251c1c;
-  padding: 8px 12px;
-  top: 0;
-  height: 100%; }
-  .sidebar .panel-heading {
-    text-align: center; }
-    .sidebar .panel-heading a {
+  .row-offcanvas .sidebar-offcanvas {
+    background: #251c1c;
+    position: absolute;
+    top: 0; }
+  .row-offcanvas .sidebar {
+    background: #251c1c;
+    padding: 8px 12px;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+    pointer-events: auto; }
+    .row-offcanvas .sidebar .panel-heading {
+      text-align: center; }
+      .row-offcanvas .sidebar .panel-heading a {
+        color: white;
+        text-decoration: none; }
+    .row-offcanvas .sidebar .panel-body p:hover {
+      background: white; }
+      .row-offcanvas .sidebar .panel-body p:hover a {
+        color: #251c1c; }
+    .row-offcanvas .sidebar .panel-body a {
       color: white;
       text-decoration: none; }
-  .sidebar .panel-body p:hover {
-    background: white; }
-    .sidebar .panel-body p:hover a {
-      color: #251c1c; }
-  .sidebar .panel-body a {
-    color: white;
-    text-decoration: none; }
-
-.btn-collapse {
-  position: fixed;
-  padding: 8px 12px;
-  top: 20px;
-  right: 0;
-  border-radius: 0;
-  box-shadow: none !important;
-  outline: 0;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out; }
-
-.row-offcanvas.active .btn-collapse {
-  right: 25%;
-  margin-right: 0;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out; }
+  .row-offcanvas .btn-collapse {
+    position: fixed;
+    padding: 8px 12px;
+    top: 20px;
+    right: 0;
+    border-radius: 0;
+    box-shadow: none !important;
+    outline: 0;
+    z-index: 1 !important;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
+  .row-offcanvas.active .btn-collapse {
+    right: 25%;
+    margin-right: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
 
 html,
 body {
