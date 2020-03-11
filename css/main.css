@@ -57,14 +57,18 @@
   padding: 8px 12px;
   top: 0;
   height: 100%; }
-  .sidebar a {
+  .sidebar .panel-heading {
+    text-align: center; }
+    .sidebar .panel-heading a {
+      color: white;
+      text-decoration: none; }
+  .sidebar .panel-body p:hover {
+    background: white; }
+    .sidebar .panel-body p:hover a {
+      color: #251c1c; }
+  .sidebar .panel-body a {
     color: white;
     text-decoration: none; }
-    .sidebar a :hover {
-      color: #251c1c; }
-  .sidebar .panel-heading {
-    text-align: center;
-    color: white; }
 
 .btn-collapse {
   position: fixed;

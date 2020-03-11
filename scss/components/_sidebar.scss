@@ -64,18 +64,29 @@
     top: 0;
     height: 100%;
 
-     a {
-        color: $sidebar-text-color-light;
-        text-decoration: none;
+    .panel-heading {
+        text-align: center;
 
-        :hover {
-            color: $sidebar-text-color-dark;
+        a {
+            color: $sidebar-text-color-light; 
+            text-decoration: none;
         }
     }
 
-    .panel-heading {
-        text-align: center;
-        color: $sidebar-header-color; 
+    .panel-body {
+        p {
+            &:hover{
+                background: $sidebar-text-color-light;
+                a {
+                    color: $sidebar-bg-color;
+                }
+            }
+        }
+
+        a {
+            color: $sidebar-text-color-light;
+            text-decoration: none;
+        }
     }
 }
 
