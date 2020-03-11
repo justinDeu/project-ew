@@ -1,6 +1,9 @@
 #index-header {
     height: 90vh;
-    background: red;
+
+    background-image: url(/img/hoover_black_house_edited.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .row-first {
         min-height: 90%;
@@ -8,12 +11,18 @@
 
     .right-col {
         min-height: 90%;
-        background: rgba(143, 214, 121, 0.459)
     }
 
     .left-col {
         min-height: 90%;
-        background: rgba(214, 121, 209, 0.459)
+
+        h1, h4 {
+            text-align: center;
+        }
+
+        .hr {
+            border-top: 1px solid black;
+        }
     }
 
     .scroll-down {

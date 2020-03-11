@@ -111,15 +111,19 @@
 
 #index-header {
   height: 90vh;
-  background: red; }
+  background-image: url(/img/hoover_black_house_edited.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
   #index-header .row-first {
     min-height: 90%; }
   #index-header .right-col {
-    min-height: 90%;
-    background: rgba(143, 214, 121, 0.459); }
+    min-height: 90%; }
   #index-header .left-col {
-    min-height: 90%;
-    background: rgba(214, 121, 209, 0.459); }
+    min-height: 90%; }
+    #index-header .left-col h1, #index-header .left-col h4 {
+      text-align: center; }
+    #index-header .left-col .hr {
+      border-top: 1px solid black; }
   #index-header .scroll-down {
     min-height: 10%;
     position: relative;
