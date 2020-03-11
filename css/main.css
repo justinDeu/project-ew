@@ -109,6 +109,31 @@
     color: #777777;
     text-align: center; }
 
+#index-header {
+  height: 90vh;
+  background: red; }
+  #index-header .row-first {
+    min-height: 90%; }
+  #index-header .right-col {
+    min-height: 90%;
+    background: rgba(143, 214, 121, 0.459); }
+  #index-header .left-col {
+    min-height: 90%;
+    background: rgba(214, 121, 209, 0.459); }
+  #index-header .scroll-down {
+    min-height: 10%;
+    position: relative;
+    bottom: 0;
+    background: rgba(121, 211, 214, 0.459); }
+
+#index-about {
+  height: 500px;
+  background: green; }
+
+#index-work {
+  height: 500px;
+  background: yellow; }
+
 html,
 body {
   background: url(/img/so-white.png);

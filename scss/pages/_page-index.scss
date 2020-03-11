@@ -1,0 +1,35 @@
+#index-header {
+    height: 90vh;
+    background: red;
+
+    .row-first {
+        min-height: 90%;
+    }
+
+    .right-col {
+        min-height: 90%;
+        background: rgba(143, 214, 121, 0.459)
+    }
+
+    .left-col {
+        min-height: 90%;
+        background: rgba(214, 121, 209, 0.459)
+    }
+
+    .scroll-down {
+        min-height: 10%;
+        position: relative;
+        bottom: 0;
+        background: rgba(121, 211, 214, 0.459)
+    }
+}
+
+#index-about {
+    height: 500px;
+    background: green;
+}
+
+#index-work {
+    height: 500px;
+    background: yellow;
+}
