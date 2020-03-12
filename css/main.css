@@ -1,7 +1,11 @@
 /*
  * Transition Mixin to handle all transitions
  */
+/* Imports */
+@import url(https://fonts.googleapis.com/css?family=Kalam&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
 /* General Colors */
+/* Fonts */
 /* Sidebar Settings */
 /* Footer Settings */
 /* Off Canvas */
@@ -109,26 +113,42 @@
     color: #777777;
     text-align: center; }
 
-#index-page h1,
-#index-page h4 {
-  text-align: center; }
 #index-page #index-header {
   height: 90vh;
+  width: 100vw;
+  margin-bottom: 10px;
   background-image: url(/img/hoover_black_house_edited.png);
   background-repeat: no-repeat;
   background-size: cover; }
-  #index-page #index-header .row-first {
-    min-height: 100%; }
+  #index-page #index-header p {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif; }
+  #index-page #index-header #name {
+    font-size: 5vw;
+    margin-bottom: -5px; }
+  #index-page #index-header #major {
+    font-size: 2vw; }
+  #index-page #index-header .row {
+    min-height: 100%;
+    margin: 0 0; }
   #index-page #index-header .right-col {
     min-height: 100%; }
-  #index-page #index-header .left-col {
-    min-height: 100%; }
-    #index-page #index-header .left-col hr {
-      border-top: 2px solid black; }
+  #index-page #index-header hr {
+    border-top: 2px solid black;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 3px; }
+#index-page .section-title {
+  text-align: center;
+  font-family: "Kalam", cursive, Georgia, "Times New Roman", Times, serif; }
+  #index-page .section-title::before, #index-page .section-title::after {
+    content: "~"; }
+#index-page .std-text {
+  font-family: "Open Sans", sans-serif, "Kalam", cursive, Georgia, "Times New Roman", Times, serif; }
 
 html,
 body {
-  background: url(/img/so-white.png);
+  background: url(/img/seamless_paper_texture.png);
   overflow-x: hidden;
   /* Prevent scroll on narrow devices */
   display: flex;

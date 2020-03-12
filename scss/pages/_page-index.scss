@@ -1,32 +1,57 @@
 #index-page {
 
-    h1,
-    h4 {
-        text-align: center;
-    }
 
     #index-header {
         height: 90vh;
+        width: 100vw;
+        margin-bottom: 10px;
 
         background-image: url(/img/hoover_black_house_edited.png);
         background-repeat: no-repeat;
         background-size: cover;
 
-        .row-first {
+        p {
+            text-align: center;
+            font-family: $header-font-family;
+        }
+
+        #name {
+            font-size: 5vw;
+            margin-bottom: -5px;
+        }
+
+        #major {
+            font-size: 2vw;
+        }
+
+        .row {
             min-height: 100%;
+            margin: 0 0;
         }
 
         .right-col {
             min-height: 100%;
         }
 
-        .left-col {
-            min-height: 100%;
-
-
-            hr {
-                border-top: 2px solid black;
-            }
+        hr {
+            border-top: 2px solid black;
+            width: 50%;
+            margin-top: 0;
+            margin-bottom: 3px;
         }
+    }
+
+    .section-title {
+        text-align: center;
+        font-family: $section-title-font-family;
+        
+        &::before, &::after {
+            content: "~";
+        }
+           
+    }
+
+    .std-text {
+        font-family: $regular-text-font-family;
     }
 }
