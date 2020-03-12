@@ -6,15 +6,15 @@
     background-size: cover;
 
     .row-first {
-        min-height: 90%;
+        min-height: 100%;
     }
 
     .right-col {
-        min-height: 90%;
+        min-height: 100%;
     }
 
     .left-col {
-        min-height: 90%;
+        min-height: 100%;
 
         h1, h4 {
             text-align: center;
@@ -24,18 +24,20 @@
             border-top: 1px solid black;
         }
     }
-
-    .scroll-down {
-        min-height: 10%;
-        position: relative;
-        bottom: 0;
-        background: rgba(121, 211, 214, 0.459)
-    }
 }
 
 #index-about {
-    height: 500px;
-    background: green;
+    h1 {
+        text-align: center;
+    }
+    
+    .img-left {
+        float: left;
+    }
+    
+    .img-rght {
+        float: right;
+    }
 }
 
 #index-work {

@@ -115,24 +115,22 @@
   background-repeat: no-repeat;
   background-size: cover; }
   #index-header .row-first {
-    min-height: 90%; }
+    min-height: 100%; }
   #index-header .right-col {
-    min-height: 90%; }
+    min-height: 100%; }
   #index-header .left-col {
-    min-height: 90%; }
+    min-height: 100%; }
     #index-header .left-col h1, #index-header .left-col h4 {
       text-align: center; }
     #index-header .left-col .hr {
       border-top: 1px solid black; }
-  #index-header .scroll-down {
-    min-height: 10%;
-    position: relative;
-    bottom: 0;
-    background: rgba(121, 211, 214, 0.459); }
 
-#index-about {
-  height: 500px;
-  background: green; }
+#index-about h1 {
+  text-align: center; }
+#index-about .img-left {
+  float: left; }
+#index-about .img-rght {
+  float: right; }
 
 #index-work {
   height: 500px;
