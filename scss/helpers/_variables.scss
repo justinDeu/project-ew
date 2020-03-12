@@ -1,7 +1,16 @@
+/* Imports */
+@import url(https://fonts.googleapis.com/css?family=Kalam&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
+
 /* General Colors */
 $dark-bg: rgb(37, 28, 28);
 $white-text-color: white;
 $light-grey-text-color: rgb(119, 119, 119);
+
+/* Fonts */
+$header-font-family: Georgia, 'Times New Roman', Times, serif;
+$section-title-font-family: 'Kalam', cursive, $header-font-family;
+$regular-text-font-family: 'Open Sans', sans-serif, $section-title-font-family;
 
 /* Sidebar Settings */
 $sidebar-bg-color: $dark-bg;
