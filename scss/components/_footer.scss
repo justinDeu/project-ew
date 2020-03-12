@@ -1,15 +1,15 @@
-.footer-main {
-    width: 100%;
+footer {
+    
+    width: 100vw;
     background-color: $footer-bg-color;
     color: $footer-text-color-light;
+    text-align: center;
 
     .footer-main-text {
-        text-align: center;
         color: $footer-text-color-grey;
     }
 
     .footer-nav {
-        text-align: center;
         a {
             color: $footer-text-color-light;
             text-decoration: none;
@@ -18,6 +18,5 @@
 
     .footer-bottom-text {
         color: $footer-text-color-grey;
-        text-align: center;
     }
 }
