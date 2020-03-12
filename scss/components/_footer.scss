@@ -1,22 +1,28 @@
 footer {
     
-    width: 100vw;
     background-color: $footer-bg-color;
     color: $footer-text-color-light;
     text-align: center;
 
     .footer-main-text {
         color: $footer-text-color-grey;
+        padding-top: 10px;
+        font-size: 3vw;
+        font-family: $section-title-font-family;
+        margin-bottom: 0;
     }
 
     .footer-nav {
+        font-size: 1.5vw;
         a {
             color: $footer-text-color-light;
             text-decoration: none;
+            font-family: $regular-text-font-family;
         }
     }
 
     .footer-bottom-text {
+        font-family: $section-title-font-family;
         color: $footer-text-color-grey;
     }
 }
