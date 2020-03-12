@@ -15,3 +15,22 @@ footer {
   margin-top: 0;
   flex-shrink: 0;
 }
+
+.img-left {
+  float: left;
+}
+
+.img-rght {
+  float: right;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.gallery {
+  img {
+    float: left;
+  }
+}
